@@ -1,0 +1,76 @@
+/* основной цвет фона #ffffff
+primary-text-color #424242
+secondary-text-color #484848
+accent-color #01996D
+primary-black-color #000000
+secondary-bg-color #245852
+site-nav-text-color #292929  */
+
+/* шрифты
+Вместо georgia - Oxygen
+Вместо Avenir - Poppins */
+
+:root {
+--accent-color: #01996D;
+--primary-text-color: #424242;
+--site-nav-text-color: #292929;
+--primary-black-color: #000000;
+--primary-white-color: #ffffff;
+--secondary-bg-color: #245852;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+color: var(--accent-color);
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 1.4;
+}
+
+.logo:hover,
+.logo:focus {
+   color: var(--secondary-bg-color); 
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: Loto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* -----------------------Header----------------------- */
+
+.site-nav .link {
+color: var(--site-nav-text-color);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.contact-nav .link {
+color: var(--primary-black-color);
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+    color: var(--accent-color);
+}
