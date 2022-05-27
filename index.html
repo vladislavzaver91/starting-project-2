@@ -9,106 +9,132 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oxygen:wght@700&family=Poppins:wght@900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Alivio</title>
 </head>
 <body>
     <!--header-->
     <header class="top">
+        <div class="container top">
+        <nav class="main-nav">
         <a href="" class="logo link">Alivio</a>
-            <nav>
-                <ul class="site-nav list">
-                    <li><a href="#why alivio" class="link">Why Alivio</a></li>
-                    <li><a href="#solutions" class="link">Solutions</a></li>
-                    <li><a href="#community" class="link">Community</a></li>
-                    <li><a href="#pricing" class="link">Pricing</a></li>
-                </ul>
-            </nav>
+            <ul class="site-nav list">
+                <li class="item"><a href="#why alivio" class="link">Why Alivio</a></li>
+                <li class="item"><a href="#solutions" class="link">Solutions</a></li>
+                <li class="item"><a href="#community" class="link">Community</a></li>
+                <li class="item"><a href="#pricing" class="link">Pricing</a></li>
+            </ul>
+        </nav>
         
-        <ul class="contact-nav list">
-            <li><a href="" class="link">Sign in</a></li>
-            <li><a href="" class="link">Start Trial</a></li>
+        <ul class="registration-nav list">
+            <li class="item"><a href="" class="link">Sign in</a></li>
+            <li class="item"><button type="button" class="button primary">Start Trial</button></li>
         </ul>
+        </div>
     </header>
 
     <main>
         <!--Hero-->
         <section id="why alivio" class="hero">
+            <div class="container">
         <div class="hero-text">
-            <h1 class="hero-header">Be aware, <br />
-                Manage well.</h1>
-            <p class="hero-paragraph">Everyone experiences stress in different ways.
-                Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-            <a href="" class="border-box-hero"><p class="border-box-text">Find Your Way</p></a>
-         </div>
-            
+            <h1 class="title">Be aware, Manage well.</h1>
+            <p class="text">Everyone experiences stress in different ways.
+            Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+            <a href="" class="link">Find Your Way</a>
+        </div>
+        </div>
         </section>
 
         <!--How it's work-->
-        <section id="solutions">
-            <h2>Understand & Release <br />
-             the stress in 3 steps</h2>
-            <p>Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger,
+        <section id="solutions" class="solutions">
+            <div class="container">
+            <p class="top-text">How it works</p>
+            <h2 class="title">Understand & Release the stress in 3 steps</h2>
+            <p class="text">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger,
             and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
 
-            <ul>
-                <li>
-                    <h3>Personalize</h3>
-                    <p>Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on.
+            <ul class="solutions-list list">
+                <li class="item">
+                    <p class="number">01</p>
+                    <h3 class="title">Personalize</h3>
+                    <p class="text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on.
                     This way, we can fully personalize your journal!</p>
                     <img src="" alt="a laptop" width="390" height="492">
                 </li>
-                <li>
-                    <h3>Write & Understand</h3>
-                    <p>Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+                <li class="item">
+                    <p class="number">02</p>
+                    <h3 class="title">Write & Understand</h3>
+                    <p class="text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
                     <img src="" alt="a notebook" width="390" height="492"></li>
-                <li>
-                    <h3>Alivio!</h3>
-                    <p>Now you are aware, and have a way to manage and overcome your own stress.
+                <li class="item">
+                    <p class="number">03</p>
+                    <h3 class="title">Alivio!</h3>
+                    <p class="text">Now you are aware, and have a way to manage and overcome your own stress.
                     What are you waiting for? Alivio today!</p>
                     <img src="" alt="happy girl" width="390" height="492"></li>
             </ul>
+            </div>
         </section>
 
         <!--video banner-->
-        <section id="community">
-            <h2>Let's hear about Kayla's success story</h2>
-            <p>See how well Alivio works in a real customer’s life.</p>
-            <a href="">Let’s get started</a>
+        <section id="community" class="community">
+            <h2 class="title">Let's hear about Kayla's success story</h2>
+            <p class="text">See how well Alivio works in a real customer’s life.</p>
+            <a href="" class="link">Let’s get started</a>
 
             <video src=""></video>
         </section>
 
         <!--Our product-->
-        <section id="prising">
+        <section id="pricing" class="pricing">
+            <p class="top-text">Our product</p>
+            <h2 class="title">You tell us your stress,
+            We make your diary</h2>
+            <p class="text">Everyone experiences it, and in different ways.
+            Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+            </p>
+            <a href="" class="link">Find Your Way</a>
 
+            <div class="card">
+                <p class="top-text">Customized For</p>
+                <img src="" alt="Mikayla">
+                <p class="about">Mikayla</p>
+                <h3 class="title">Your custom contents</h3>
+                <p class="text">• Understand Your Stress</p>
+                <p class="text">• Anger Management</p>
+            </div>
         </section>
-
-        <!--Footer-->
-        <footer>
-            <a href="./index.html">Alivio</a>
-            <ul>
-                <li><a href="">Why Alivio</a></li>
-                <li><a href="">Solutions</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Pricing</a></li>
-            </ul>
-
-            <address>
-                <a href="https://goo.gl/maps/3KtcDtDruQft3LsG9" target="_blank" rel="noopener nofollow noreferrer">
-                    kiyv city, Chernovola st, 2a
-                </a>
-                <ul>
-                    <li>
-                        <a href="mailto:secretary.alivio@gmail.com">secretary.alivio@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="tel:+380991111111">+38 099 111 11 11</a>
-                    </li>
-                </ul>
-                <p>&copy;Copyright 2022</p>
-            </address>
-        </footer>
     </main>
+    <!--Footer-->
+    <footer class="footer">
+        <a href="./index.html" class="logo link">Alivio</a>
+            <ul class="nav list">
+                <li class="items"><a href="#why alivio" class="link">Why Alivio</a></li>
+                <li class="items"><a href="#solutions" class="link">Solutions</a></li>
+                <li class="items"><a href="#community" class="link">Community</a></li>
+                <li class="items"><a href="#pricing" class="link">Pricing</a></li>
+            </ul>
+            
+        <address class="address">
+            <ul class="list">
+                <li>
+                    <a href="https://goo.gl/maps/3KtcDtDruQft3LsG9" target="_blank" rel="noopener nofollow noreferrer" class="link">
+                Kiyv city, Chernovola st, 2a
+                </a>
+            </li>
+                <li>
+                    <a href="mailto:secretary.alivio@gmail.com" class="link">secretary.alivio@gmail.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+                </li>
+            </ul>
+            <p class="text">&copy;Copyright 2022</p>
+        </address>
+    </footer>
 </body>
 </html>
